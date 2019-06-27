@@ -1,0 +1,35 @@
+Arguments: 
+  /Users/kad/.nvm/versions/node/v11.7.0/bin/node /Users/kad/.nvm/versions/node/v11.7.0/bin/yarn add babel-cli --dev
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/opt/local/bin:/opt/local/sbin:/Users/kad/.nvm/versions/node/v11.7.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/kad/Library/Python/3.6/bin/:/Library/PostgreSQL/9.5/bin:/Applications/phantomjs/bin/phantomjs:/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  11.7.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:80
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+
+npm manifest: 
+  {
+    "name": "react-recipes",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node ./index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
